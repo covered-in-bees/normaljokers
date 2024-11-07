@@ -12,7 +12,7 @@ let jokers = [
   name: "Night Joker",
   text: [
 	"Decrease the rank of each ", 	
-	"scored {C:hearts}Club{} card by {C:attention}1{}" 
+	"scored {C:clubs}Club{} card by {C:attention}1{}" 
   ],
   image_url: "img/j_nightjoker.png",
    rarity: "Rare"
