@@ -17,15 +17,7 @@ let jokers = [
   image_url: "img/j_highjoker.png",
    rarity: "Common"
   },
-      {
-  name: "Arsonist",
-  text: [
-	"When you discard exactly",                
-    "{C:attention}#1#{} card, discard your hand"  
-  ],
-  image_url: "img/j_arsonist.png",
-   rarity: "Uncommon"
-  },
+
       {
   name: "Tomato",
   text: [
@@ -35,6 +27,15 @@ let jokers = [
   ],
   image_url: "img/j_tomato.png",
    rarity: "Common"
+  },
+        {
+  name: "Arsonist",
+  text: [
+	"When you discard exactly",                
+    "{C:attention}#1#{} card, discard your hand"  
+  ],
+  image_url: "img/j_arsonist.png",
+   rarity: "Uncommon"
   },
   {
   name: "Day Joker",
@@ -54,16 +55,7 @@ let jokers = [
   image_url: "img/j_nightjoker.png",
    rarity: "Rare"
   },
-    
-  {
-  name: "Bogdonoff",
-  text: [
-	"Everything costs {C:money}$0{}!"
-  ],
-  image_url: "img/j_bogdonoff.png",
-   rarity: "Legendary"
-  },
-    {
+     {
   name: "Gay Joker",
   text: [
 	"If poker hand is a {C:attention}Straight{}",
@@ -71,6 +63,14 @@ let jokers = [
   ],
   image_url: "img/j_gayjoker.png",
    rarity: "Rare"
+  },
+  {
+  name: "Bogdonoff",
+  text: [
+	"Everything costs {C:money}$0{}!"
+  ],
+  image_url: "img/j_bogdonoff.png",
+   rarity: "Legendary"
   }
 ]
 
