@@ -23,7 +23,7 @@ let jokers = [
   text: [
 	"Disables the current",
 			"{C:attention}Boss Blind{}",
-			"for {C:attention}#1#{} hand"  
+			"for {C:attention}1{} hand"  
   ],
   image_url: "img/j_tomato.png",
    rarity: "Common"
@@ -32,7 +32,7 @@ let jokers = [
   name: "Arsonist",
   text: [
 	"When you discard exactly",                
-    "{C:attention}#1#{} card, discard your hand"  
+    "{C:attention}1{} card, discard your hand"  
   ],
   image_url: "img/j_arsonist.png",
    rarity: "Uncommon"
