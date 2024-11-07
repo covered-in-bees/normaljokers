@@ -73,6 +73,8 @@ let jokers = [
   }
 ]
 
+Arrays.sort(jokers, (a,b) -> a.rarity.compareTo(b.rarity));
+
 // works the same. 
 let consumables = [
   // {
