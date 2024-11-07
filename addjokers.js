@@ -1,4 +1,41 @@
 let jokers = [
+   {
+  name: "Dirty Joker",
+  text: [
+	"Retrigger the first",
+	"played {C:attention}6{} and {C:attention}9{}"
+  ],
+  image_url: "img/j_dirtyjoker.png",
+   rarity: "Common"
+  },
+  {
+  name: "High Joker",
+  text: [
+	"All hands are scored",                	
+	"as {C:attention}High Card{}" 
+  ],
+  image_url: "img/j_highjoker.png",
+   rarity: "Common"
+  },
+      {
+  name: "Arsonist",
+  text: [
+	"When you discard exactly",                
+    "{C:attention}#1#{} card, discard your hand"  
+  ],
+  image_url: "img/j_arsonist.png",
+   rarity: "Uncommon"
+  },
+      {
+  name: "Tomato",
+  text: [
+	"Disables the current",
+			"{C:attention}Boss Blind{}",
+			"for {C:attention}#1#{} hand"  
+  ],
+  image_url: "img/j_tomato.png",
+   rarity: "Common"
+  },
   {
   name: "Day Joker",
   text: [
@@ -17,34 +54,7 @@ let jokers = [
   image_url: "img/j_nightjoker.png",
    rarity: "Rare"
   },
-    {
-  name: "High Joker",
-  text: [
-	"All hands are scored",                	
-	"as {C:attention}High Card{}" 
-  ],
-  image_url: "img/j_highjoker.png",
-   rarity: "Common"
-  },
-    {
-  name: "Arsonist",
-  text: [
-	"When you discard exactly",                
-    "{C:attention}#1#{} card, discard your hand"  
-  ],
-  image_url: "img/j_arsonist.png",
-   rarity: "Uncommon"
-  },
-    {
-  name: "Tomato",
-  text: [
-	"Disables the current",
-			"{C:attention}Boss Blind{}",
-			"for {C:attention}#1#{} hand"  
-  ],
-  image_url: "img/j_tomato.png",
-   rarity: "Common"
-  },
+    
   {
   name: "Bogdonoff",
   text: [
@@ -61,19 +71,8 @@ let jokers = [
   ],
   image_url: "img/j_gayjoker.png",
    rarity: "Rare"
-  },
-   {
-  name: "Dirty Joker",
-  text: [
-	"Retrigger the first",
-	"played {C:attention}6{} and {C:attention}9{}"
-  ],
-  image_url: "img/j_dirtyjoker.png",
-   rarity: "Common"
   }
 ]
-
-Arrays.sort(jokers, (a,b) -> a.rarity.compareTo(b.rarity));
 
 // works the same. 
 let consumables = [
